@@ -1,26 +1,42 @@
 # Pizza Delivery Mobile Application
 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+Scroll+To+Bottom!;" />
-</h1>
+A Flutter mobile app for browsing pizza menus, customising orders and getting them delivered — built with Firebase as the backend.
 
-## About The Project
-<p> A Pizza delivery app is an online platform where users can order pizza from a variety of restaurants and have it delivered to their location..</p><br>
+## About
 
-## Admin Panel
-  https://github.com/user-attachments/assets/f309af14-3e10-489c-bd4f-81ec8b20503e
+Users can browse the menu, customise pizzas to their taste and place orders. An admin panel manages the menu and incoming orders. I led the team on this project: app architecture, coding standards and the review process.
 
-## Data Base
-https://github.com/user-attachments/assets/001f79c8-9794-4614-8e7c-6c3d9a3b5728
+## Features
 
-## User Panel
-https://github.com/user-attachments/assets/1cce3807-0a51-46fc-85fd-89c204ea7999
+- Browse menus and pizza details
+- Customise pizzas and place orders
+- Authentication with Firebase Auth
+- Order data stored and synced with Cloud Firestore
+- Admin panel for menu and order management
 
+## Screenshots
 
+**User app**
 
-### Built With
+![User panel](https://github.com/user-attachments/assets/1cce3807-0a51-46fc-85fd-89c204ea7999)
 
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=firebase" /><br>
-    <img src="https://skillicons.dev/icons?i=flutter,dart" />
-</div>
+**Admin panel**
+
+![Admin panel](https://github.com/user-attachments/assets/f309af14-3e10-489c-bd4f-81ec8b20503e)
+
+**Database**
+
+![Database](https://github.com/user-attachments/assets/001f79c8-9794-4614-8e7c-6c3d9a3b5728)
+
+## Built with
+
+Flutter · Dart · Firebase Authentication · Cloud Firestore
+
+## Run locally
+
+```bash
+flutter pub get
+flutter run
+```
+
+Requires a Firebase project configured for the app (`google-services.json` / `firebase_options.dart`).
